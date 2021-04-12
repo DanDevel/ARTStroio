@@ -13,8 +13,10 @@ Bug Fixes:
 
 "Tokens NOT SHOWING":
 
-- Capital letters was misspelling the account address.
+1 - Capital letters was misspelling the account address.
 - example: account: 0x000a0b0c was loading : 0x000A0B0C this was generating a bug on addresses.
+
+2 - String was beeing compared with type object instead the objects value (string inside).
 
 
 
